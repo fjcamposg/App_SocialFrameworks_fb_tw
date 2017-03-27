@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		093B32951E897F6100468C6E /* APIUTILS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093B32941E897F6100468C6E /* APIUTILS.swift */; };
 		09D7892F1E830FB800892833 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D7892E1E830FB800892833 /* AppDelegate.swift */; };
 		09D789311E830FB800892833 /* FTPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D789301E830FB800892833 /* FTPostViewController.swift */; };
 		09D789341E830FB800892833 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09D789321E830FB800892833 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		093B32941E897F6100468C6E /* APIUTILS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIUTILS.swift; sourceTree = "<group>"; };
 		09D7892B1E830FB800892833 /* App_SocialFrameworks_fb_tw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App_SocialFrameworks_fb_tw.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09D7892E1E830FB800892833 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09D789301E830FB800892833 /* FTPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTPostViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				09D7892E1E830FB800892833 /* AppDelegate.swift */,
 				09D789301E830FB800892833 /* FTPostViewController.swift */,
+				093B32941E897F6100468C6E /* APIUTILS.swift */,
 				09D789321E830FB800892833 /* Main.storyboard */,
 				09D789351E830FB800892833 /* Assets.xcassets */,
 				09D789371E830FB800892833 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				09D789311E830FB800892833 /* FTPostViewController.swift in Sources */,
+				093B32951E897F6100468C6E /* APIUTILS.swift in Sources */,
 				09D7892F1E830FB800892833 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,6 +301,7 @@
 				09D7893F1E830FB800892833 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
