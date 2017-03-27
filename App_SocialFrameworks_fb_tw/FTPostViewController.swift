@@ -64,6 +64,9 @@ class FTPostViewController: UIViewController {
         pickerPhoto()
     }
     
+    
+    
+    
     @IBAction func showActivitiesSheetAction(_ sender: Any) {
         // let miModel = model[sender.tag].nombreid
         
